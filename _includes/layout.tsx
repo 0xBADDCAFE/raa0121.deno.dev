@@ -1,8 +1,6 @@
-import { ComponentChildren } from "preact";
-
 interface PageProps {
-  children: ComponentChildren
-  title: string
+  children: React.ReactNode;
+  title: string;
 }
 
 import Header from "./header.tsx";
